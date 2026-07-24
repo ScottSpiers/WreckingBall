@@ -49,6 +49,7 @@
     {"id":{"name":"fnt_default","path":"fonts/fnt_default/fnt_default.yy",},},
     {"id":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},},
     {"id":{"name":"obj_npcSample","path":"objects/obj_npcSample/obj_npcSample.yy",},},
+    {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},},
     {"id":{"name":"obj_uiManager","path":"objects/obj_uiManager/obj_uiManager.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
