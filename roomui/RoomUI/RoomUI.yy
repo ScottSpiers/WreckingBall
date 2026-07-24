@@ -1,0 +1,22 @@
+{
+  "$GMRoomUI":"",
+  "%Name":"RoomUI",
+  "children":[
+    {"$GMRUILayer":"v1","%Name":"UILayer_1","alignItems":2,"children":[
+        {"$GMRFlexPanel":"","%Name":"pnl_dialog","alignItems":2,"children":[
+            {"$GMRTextItem":"v3","%Name":"txt_dialog","alignment":257,"charSpacing":0.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":4,"resourceType":"InstanceFlexProps",},"fontId":{"name":"fnt_default","path":"fonts/fnt_default/fnt_default.yy",},"frameH":100.0,"frameW":640.0,"frozen":false,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"lineSpacing":0.0,"name":"txt_dialog","paragraphSpacing":0.0,"resourceType":"GMRTextItem","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"text":"This is sample text","wrap":true,"x":-320.0,"y":-50.0,},
+            {"$GMRSpriteGraphic":"v1","%Name":"img_dialog","animationSpeed":1.0,"colour":4294967295,"flexProperties":{"$InstanceFlexProps":"v1","anchor":0,"resourceType":"InstanceFlexProps",},"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"img_dialog","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_tempDialogBox","path":"sprites/spr_tempDialogBox/spr_tempDialogBox.yy",},"x":0.0,"y":0.0,},
+          ],"flexDirection":0,"height":{"unit":1,"value":100.0,},"justifyContent":1,"name":"pnl_dialog","nodeColour":4282970698,"positionBottom":{"unit":1,"value":-1.0,},"positionLeft":{"unit":1,"value":0.0,},"positionType":2,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":1,"value":640.0,},},
+      ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"UILayer_1","nodeColour":4294068344,"resourceType":"GMRUILayer","resourceVersion":"2.0",},
+  ],
+  "locked":false,
+  "name":"RoomUI",
+  "parent":{
+    "name":"WreckingBall",
+    "path":"WreckingBall.yyp",
+  },
+  "resourceType":"GMRoomUI",
+  "resourceVersion":"2.0",
+  "viewspaceChildren":[],
+  "visible":true,
+}
