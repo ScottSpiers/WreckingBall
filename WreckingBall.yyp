@@ -70,6 +70,7 @@
     {"id":{"name":"spr_BuildersNPC_2_Walk_Left","path":"sprites/spr_BuildersNPC_2_Walk_Left/spr_BuildersNPC_2_Walk_Left.yy",},},
     {"id":{"name":"spr_BuildersNPC_2_Walk_Right","path":"sprites/spr_BuildersNPC_2_Walk_Right/spr_BuildersNPC_2_Walk_Right.yy",},},
     {"id":{"name":"spr_BuildersNPC_2_Walk_Up","path":"sprites/spr_BuildersNPC_2_Walk_Up/spr_BuildersNPC_2_Walk_Up.yy",},},
+    {"id":{"name":"spr_CalendarCountdown","path":"sprites/spr_CalendarCountdown/spr_CalendarCountdown.yy",},},
     {"id":{"name":"spr_CoporateFemaleNPC_2_Idle_Down","path":"sprites/spr_CoporateFemaleNPC_2_Idle_Down/spr_CoporateFemaleNPC_2_Idle_Down.yy",},},
     {"id":{"name":"spr_CoporateFemaleNPC_2_Idle_Left","path":"sprites/spr_CoporateFemaleNPC_2_Idle_Left/spr_CoporateFemaleNPC_2_Idle_Left.yy",},},
     {"id":{"name":"spr_CoporateFemaleNPC_2_Idle_Right","path":"sprites/spr_CoporateFemaleNPC_2_Idle_Right/spr_CoporateFemaleNPC_2_Idle_Right.yy",},},
