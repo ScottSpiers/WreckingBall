@@ -8,19 +8,10 @@ function InitUI()
 	HideDialog();	
 }
 
-
 //var tooltipPanel = "pnl_tooltip";
 
-global.bIsShowingDialog = false;
-
-
 function ShowDialog(text)
-{
-	if(global.bIsShowingDialog)
-		return;
-	
-	global.bIsShowingDialog = true;
-	
+{	
 	var textId = layer_text_get_id(global.uiLayer, global.dialogText);
 	layer_text_text(textId, text);
 	flexpanel_node_style_set_display(GetDialogPanel(), flexpanel_display.flex);
@@ -29,8 +20,6 @@ function ShowDialog(text)
 
 function HideDialog()
 {
-		
-	global.bIsShowingDialog = false;	
 	flexpanel_node_style_set_display(GetDialogPanel(), flexpanel_display.none);
 }
 
