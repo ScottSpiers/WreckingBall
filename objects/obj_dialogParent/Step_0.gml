@@ -20,6 +20,7 @@ else if (isShowingDialog)
 		HideDialog();
 		isShowingDialog = false;
 		
-		//dialog complete give signature
+		//TODO: base on dialog outcome
+		global.signatures += signatures;
 	}
 }
