@@ -8,7 +8,7 @@
     "TileSerialiseData":[],
   },
   "name":"Tileset_Environment",
-  "out_columns":22,
+  "out_columns":25,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_RPGUrbanPack",
-    "path":"sprites/spr_RPGUrbanPack/spr_RPGUrbanPack.yy",
+    "name":"spr_RPGUrban_Tweaked",
+    "path":"sprites/spr_RPGUrban_Tweaked/spr_RPGUrban_Tweaked.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":486,
+  "tile_count":630,
 }

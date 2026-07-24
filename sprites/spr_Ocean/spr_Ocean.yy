@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_RPGUrbanPack",
+  "%Name":"spr_Ocean",
   "bboxMode":0,
-  "bbox_bottom":304,
+  "bbox_bottom":15,
   "bbox_left":0,
-  "bbox_right":389,
+  "bbox_right":15,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"59ec6f4b-caac-4811-8bad-4f0fb84f76d4","name":"59ec6f4b-caac-4811-8bad-4f0fb84f76d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"860d80a1-25dc-4d26-a990-74d75835640d","name":"860d80a1-25dc-4d26-a990-74d75835640d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":305,
+  "height":16,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"9268b527-9efb-4917-a6e8-367bfddeccef","blendMode":0,"displayName":"default","isLocked":false,"name":"9268b527-9efb-4917-a6e8-367bfddeccef","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5aea711c-8ce9-40dc-8dc7-1b6025ad8e2b","blendMode":0,"displayName":"default","isLocked":false,"name":"5aea711c-8ce9-40dc-8dc7-1b6025ad8e2b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_RPGUrbanPack",
+  "name":"spr_Ocean",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_RPGUrbanPack",
+    "%Name":"spr_Ocean",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_RPGUrbanPack",
+    "name":"spr_Ocean",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"59ec6f4b-caac-4811-8bad-4f0fb84f76d4","path":"sprites/spr_RPGUrbanPack/spr_RPGUrbanPack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2bf6f0ca-e4e4-46e6-9e93-72a5fc71aebc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"860d80a1-25dc-4d26-a990-74d75835640d","path":"sprites/spr_Ocean/spr_Ocean.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b0944d1d-694b-433b-a6ca-441579c8ebb6","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":458,
+  "width":16,
 }

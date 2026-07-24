@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_RPGUrbanPack",
+  "%Name":"spr_RPGUrban_Tweaked",
   "bboxMode":0,
   "bbox_bottom":304,
   "bbox_left":0,
-  "bbox_right":389,
+  "bbox_right":542,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"59ec6f4b-caac-4811-8bad-4f0fb84f76d4","name":"59ec6f4b-caac-4811-8bad-4f0fb84f76d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"821ad05f-0fac-4633-8856-fcac401c29f6","name":"821ad05f-0fac-4633-8856-fcac401c29f6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":305,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"9268b527-9efb-4917-a6e8-367bfddeccef","blendMode":0,"displayName":"default","isLocked":false,"name":"9268b527-9efb-4917-a6e8-367bfddeccef","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"949df686-8dc8-40c2-89dc-20e4f0949bea","blendMode":0,"displayName":"default","isLocked":false,"name":"949df686-8dc8-40c2-89dc-20e4f0949bea","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_RPGUrbanPack",
+  "name":"spr_RPGUrban_Tweaked",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_RPGUrbanPack",
+    "%Name":"spr_RPGUrban_Tweaked",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_RPGUrbanPack",
+    "name":"spr_RPGUrban_Tweaked",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"59ec6f4b-caac-4811-8bad-4f0fb84f76d4","path":"sprites/spr_RPGUrbanPack/spr_RPGUrbanPack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2bf6f0ca-e4e4-46e6-9e93-72a5fc71aebc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"821ad05f-0fac-4633-8856-fcac401c29f6","path":"sprites/spr_RPGUrban_Tweaked/spr_RPGUrban_Tweaked.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4904f1b5-0fc4-4ea5-9c45-cdbc72771b56","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":458,
+  "width":600,
 }
