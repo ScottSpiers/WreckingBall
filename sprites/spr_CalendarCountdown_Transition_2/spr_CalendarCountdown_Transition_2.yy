@@ -1,27 +1,28 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_tempDialogBox",
+  "%Name":"spr_CalendarCountdown_Transition_2",
   "bboxMode":0,
-  "bbox_bottom":125,
-  "bbox_left":0,
-  "bbox_right":1115,
-  "bbox_top":0,
+  "bbox_bottom":156,
+  "bbox_left":10,
+  "bbox_right":156,
+  "bbox_top":10,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"4151ffdd-89fe-41a7-8d95-ed6fe33456b1","name":"4151ffdd-89fe-41a7-8d95-ed6fe33456b1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dd43abd2-940c-42e5-8a20-d2452c584e8b","name":"dd43abd2-940c-42e5-8a20-d2452c584e8b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f3386f38-7e9f-4dcf-bf4e-01d79e0553e0","name":"f3386f38-7e9f-4dcf-bf4e-01d79e0553e0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":126,
+  "height":168,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f13d093e-3340-4398-81a0-c43f749ab030","blendMode":0,"displayName":"default","isLocked":false,"name":"f13d093e-3340-4398-81a0-c43f749ab030","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"207a7c16-6293-4c16-b707-2c0853f296d0","blendMode":0,"displayName":"default","isLocked":false,"name":"207a7c16-6293-4c16-b707-2c0853f296d0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_tempDialogBox",
+  "name":"spr_CalendarCountdown_Transition_2",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +34,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_tempDialogBox",
+    "%Name":"spr_CalendarCountdown_Transition_1",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -49,7 +50,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":10.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -57,7 +58,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_tempDialogBox",
+    "name":"spr_CalendarCountdown_Transition_1",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +70,11 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4151ffdd-89fe-41a7-8d95-ed6fe33456b1","path":"sprites/spr_tempDialogBox/spr_tempDialogBox.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"53a40991-1514-45cf-80a4-691a49b79886","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dd43abd2-940c-42e5-8a20-d2452c584e8b","path":"sprites/spr_CalendarCountdown_Transition_2/spr_CalendarCountdown_Transition_2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"31b2fdcf-d0c4-4bd2-b77d-f1384728415a","IsCreationKey":false,"Key":0.0,"Length":5.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f3386f38-7e9f-4dcf-bf4e-01d79e0553e0","path":"sprites/spr_CalendarCountdown_Transition_2/spr_CalendarCountdown_Transition_2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"256fb277-8bc8-40ec-8edf-d5fea77a2795","IsCreationKey":false,"Key":5.0,"Length":5.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +90,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":1120,
+  "width":168,
 }
