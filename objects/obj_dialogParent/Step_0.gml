@@ -1,8 +1,10 @@
 
 if(!isShowingDialog && curDialogue < array_length(_dialogs) && keyboard_check_pressed(ord("E")))
 {
-	//if(distance_to_object(obj_npcSample) < 10) //change to player
+	if(isTooltipActive && keyboard_check(ord("E")))
 	{
+		HideTooltip();
+		isTooltipActive = false;
 		ShowDialog(_dialogs[curDialogue++]);
 		isShowingDialog = true;
 	}

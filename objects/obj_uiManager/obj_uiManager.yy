@@ -29,6 +29,8 @@
     {"$GMObjectProperty":"v2","%Name":"uiLayer","filters":[],"listItems":[],"multiselect":false,"name":"uiLayer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"UILayer_1","varDescription":"The Layer used for showing UI","varFriendlyName":"UI Layer","varType":2,},
     {"$GMObjectProperty":"v2","%Name":"dialogPanel","filters":[],"listItems":[],"multiselect":false,"name":"dialogPanel","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"pnl_dialog","varDescription":"The panel containing the dialog box","varFriendlyName":"Dialog Panel","varType":2,},
     {"$GMObjectProperty":"v2","%Name":"dialogText","filters":[],"listItems":[],"multiselect":false,"name":"dialogText","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"txt_dialog","varDescription":"The Dialog Text instance","varFriendlyName":"Dialog Text","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"tooltipPanel","filters":[],"listItems":[],"multiselect":false,"name":"tooltipPanel","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"pnl_tooltip","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"tooltipText","filters":[],"listItems":[],"multiselect":false,"name":"tooltipText","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"txt_tooltip","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

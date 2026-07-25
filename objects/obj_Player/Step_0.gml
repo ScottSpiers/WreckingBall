@@ -17,3 +17,16 @@ else
     else if (sprite_index == spr_Player_Walk_Up) sprite_index = spr_Player_Idle_Up;
     else if (sprite_index == spr_Player_Walk_Down) sprite_index = spr_Player_Idle_Down;
 }
+
+var npc = instance_nearest(x, y, obj_dialogParent);
+
+if(!global.IsShowingDialog && npc != noone && distance_to_object(npc) < 10)
+{
+	ShowTooltip(npc.x, npc.y);
+	
+	npc.isTooltipActive = true;
+}
+else if(global.IsShowingTooltip)
+{
+	HideTooltip();
+}

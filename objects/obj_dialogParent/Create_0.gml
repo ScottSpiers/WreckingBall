@@ -4,3 +4,4 @@ _dialogs = [];
 
 key_next = vk_anykey;
 isShowingDialog = false;
+isTooltipActive = false;
