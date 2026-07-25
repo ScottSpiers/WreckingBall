@@ -2,7 +2,7 @@ function InitGameManager()
 {
 	global.intsPerDay = interactionsPerDay;
 	global.requiredSignatures = requiredSignatures;
-	global.curDay = 1;
+	global.daysLeft = 2;
 	global.interactions = 0;
 	global.signatures = 0;
 	
@@ -22,6 +22,7 @@ function CheckForEndOfDay()
 		
 		if(room_exists(room_next(room)))
 		{
+			HideHUD();
 			room_goto_next();
 		}
 	}

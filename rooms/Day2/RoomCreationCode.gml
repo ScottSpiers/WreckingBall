@@ -1,0 +1,3 @@
+--global.daysLeft;
+UpdateCalendar();
+ShowHUD();

@@ -7,8 +7,44 @@ function InitUI()
 	global.dialogText = dialogText;
 	global.tooltipPanel = tooltipPanel;
 	global.tooltipText = tooltipText;
+	global.hudPanel = hudPanel;
+	global.signatureText = signatureText;
+	global.calendarText = calendarText;
+	
 	HideDialog();
 	HideTooltip();
+	UpdateSignatureUI();
+	UpdateCalendar();
+}
+
+function UpdateCalendar()
+{
+	var textId = layer_text_get_id(global.uiLayer, global.calendarText);
+	layer_text_text(textId, $"{global.daysLeft}");
+}
+
+function ShowHUD()
+{
+	var ui = layer_get_flexpanel_node(global.uiLayer);
+	flexpanel_node_style_set_display(GetHUDPanel(), flexpanel_display.flex);
+}
+
+function HideHUD()
+{
+	var ui = layer_get_flexpanel_node(global.uiLayer);
+	flexpanel_node_style_set_display(GetHUDPanel(), flexpanel_display.none);
+}
+
+function GetHUDPanel()
+{
+	var ui = layer_get_flexpanel_node(global.uiLayer);
+	return flexpanel_node_get_child(ui, global.hudPanel);
+}
+
+function UpdateSignatureUI()
+{
+	var textId = layer_text_get_id(global.uiLayer, global.signatureText);
+	layer_text_text(textId, $"x{global.signatures}");
 }
 
 function ShowDialog(text)
