@@ -24,5 +24,7 @@ else if (isShowingDialog)
 		
 		//TODO: base on dialog outcome
 		global.signatures += signatures;
+		show_debug_message($"Gained {signatures} signatures - Total: {global.signatures}");
+		CompleteInteraction();
 	}
 }
