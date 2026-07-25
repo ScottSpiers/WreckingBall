@@ -1,0 +1,1 @@
+array_push(_dialogs, "It's too soon to collect my reward! A few more signatures and I can stop for a cold brew.");

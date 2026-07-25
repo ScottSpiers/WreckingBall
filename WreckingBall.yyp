@@ -47,6 +47,7 @@
   "name":"WreckingBall",
   "resources":[
     {"id":{"name":"fnt_default","path":"fonts/fnt_default/fnt_default.yy",},},
+    {"id":{"name":"obj_dialogCollider","path":"objects/obj_dialogCollider/obj_dialogCollider.yy",},},
     {"id":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},},
     {"id":{"name":"obj_gameManager","path":"objects/obj_gameManager/obj_gameManager.yy",},},
     {"id":{"name":"obj_npcSample","path":"objects/obj_npcSample/obj_npcSample.yy",},},
@@ -160,6 +161,7 @@
     {"id":{"name":"spr_RPGUrbanPack","path":"sprites/spr_RPGUrbanPack/spr_RPGUrbanPack.yy",},},
     {"id":{"name":"spr_Signage","path":"sprites/spr_Signage/spr_Signage.yy",},},
     {"id":{"name":"spr_tempDialogBox","path":"sprites/spr_tempDialogBox/spr_tempDialogBox.yy",},},
+    {"id":{"name":"Sprite99","path":"sprites/Sprite99/Sprite99.yy",},},
     {"id":{"name":"Tileset_Environment","path":"tilesets/Tileset_Environment/Tileset_Environment.yy",},},
     {"id":{"name":"Tileset_UI","path":"tilesets/Tileset_UI/Tileset_UI.yy",},},
   ],

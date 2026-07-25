@@ -21,9 +21,43 @@ function Move()
 	}
 	else 
 	{
-		if (sprite_index == spr_Player_Walk_Right) sprite_index = spr_Player_Idle_Right;
+		SetIdle();
+	}
+}
+
+function StepBack(_x, _y)
+{
+	switch(sprite_index)
+	{
+		case spr_Player_Walk_Right:
+		{
+			x -= _x;
+			break;
+		}
+		case spr_Player_Walk_Left:
+		{
+			x += _x;
+			break;
+		}
+		case spr_Player_Walk_Down:
+		{
+			y -= _y;
+			break;
+		}
+		case spr_Player_Walk_Up:
+		{
+			y += _y;
+			break;
+		}
+	}
+	SetIdle();
+}
+
+function SetIdle()
+{
+	if (sprite_index == spr_Player_Walk_Right) sprite_index = spr_Player_Idle_Right;
 		else if (sprite_index == spr_Player_Walk_Left) sprite_index = spr_Player_Idle_Left;
 		else if (sprite_index == spr_Player_Walk_Up) sprite_index = spr_Player_Idle_Up;
 		else if (sprite_index == spr_Player_Walk_Down) sprite_index = spr_Player_Idle_Down;
-	}
 }
+

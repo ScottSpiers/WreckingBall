@@ -1,7 +1,7 @@
 
-if(!isShowingDialog && curDialogue < array_length(_dialogs) && keyboard_check_pressed(ord("E")))
+if(!isShowingDialog && isNPC && curDialogue < array_length(_dialogs))
 {
-	if(isTooltipActive && keyboard_check(ord("E")))
+	if(isTooltipActive && keyboard_check_pressed(ord("E")))
 	{
 		HideTooltip();
 		isTooltipActive = false;
@@ -22,9 +22,16 @@ else if (isShowingDialog)
 		HideDialog();
 		isShowingDialog = false;
 		
+		if(!isNPC)
+		{
+			return;
+		}
+		
 		//TODO: base on dialog outcome
 		global.signatures += signatures;
 		UpdateSignatureUI();
-		CompleteInteraction();
+		
+		if(isInteraction)
+			CompleteInteraction();
 	}
 }
