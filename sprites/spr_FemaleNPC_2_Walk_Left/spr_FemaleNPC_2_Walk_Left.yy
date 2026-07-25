@@ -13,7 +13,9 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"596496e9-5eec-4293-893e-1a9f5e9cd4a8","name":"596496e9-5eec-4293-893e-1a9f5e9cd4a8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8ef3daa0-3b8a-4e24-99a3-0d87a25bc920","name":"8ef3daa0-3b8a-4e24-99a3-0d87a25bc920","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"4c80e037-0f7e-480f-bc73-a939064f2514","name":"4c80e037-0f7e-480f-bc73-a939064f2514","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"842295ca-23d3-4b61-85d7-a8b939322dea","name":"842295ca-23d3-4b61-85d7-a8b939322dea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -50,7 +52,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":2.0,
+    "length":14.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -71,10 +73,16 @@
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"596496e9-5eec-4293-893e-1a9f5e9cd4a8","path":"sprites/spr_FemaleNPC_2_Walk_Left/spr_FemaleNPC_2_Walk_Left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fad955a2-3a0d-4b8a-8f4a-087f37118019","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"fad955a2-3a0d-4b8a-8f4a-087f37118019","IsCreationKey":false,"Key":0.0,"Length":4.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8ef3daa0-3b8a-4e24-99a3-0d87a25bc920","path":"sprites/spr_FemaleNPC_2_Walk_Left/spr_FemaleNPC_2_Walk_Left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fe7f79ba-435f-4e6a-93ca-4f5e359d2ae7","IsCreationKey":false,"Key":4.0,"Length":3.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4c80e037-0f7e-480f-bc73-a939064f2514","path":"sprites/spr_FemaleNPC_2_Walk_Left/spr_FemaleNPC_2_Walk_Left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"61459934-f35f-456e-973e-bb15086b03b3","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"61459934-f35f-456e-973e-bb15086b03b3","IsCreationKey":false,"Key":7.0,"Length":4.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"842295ca-23d3-4b61-85d7-a8b939322dea","path":"sprites/spr_FemaleNPC_2_Walk_Left/spr_FemaleNPC_2_Walk_Left.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"86922b09-e083-4f11-9b59-ffa32ffe459a","IsCreationKey":false,"Key":11.0,"Length":3.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
