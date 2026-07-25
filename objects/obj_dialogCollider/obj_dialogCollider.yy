@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite99",
-    "path":"sprites/Sprite99/Sprite99.yy",
+    "name":"spr_collider",
+    "path":"sprites/spr_collider/spr_collider.yy",
   },
   "spriteMaskId":null,
   "visible":false,

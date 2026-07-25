@@ -1,0 +1,22 @@
+{
+  "$GMPath":"",
+  "%Name":"path_beach",
+  "closed":true,
+  "kind":0,
+  "name":"path_beach",
+  "parent":{
+    "name":"WreckingBall",
+    "path":"WreckingBall.yyp",
+  },
+  "points":[
+    {"speed":100.0,"x":0.0,"y":0.0,},
+    {"speed":100.0,"x":0.0,"y":30.0,},
+    {"speed":100.0,"x":125.0,"y":30.0,},
+    {"speed":100.0,"x":125.0,"y":0.0,},
+    {"speed":100.0,"x":300.0,"y":0.0,},
+    {"speed":100.0,"x":300.0,"y":0.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

@@ -21,7 +21,7 @@ function Move()
 	}
 	else 
 	{
-		SetIdle();
+		SetPlayerIdle();
 	}
 }
 
@@ -50,14 +50,56 @@ function StepBack(_x, _y)
 			break;
 		}
 	}
-	SetIdle();
+	SetPlayerIdle();
 }
 
-function SetIdle()
+function SetPlayerIdle()
 {
 	if (sprite_index == spr_Player_Walk_Right) sprite_index = spr_Player_Idle_Right;
 		else if (sprite_index == spr_Player_Walk_Left) sprite_index = spr_Player_Idle_Left;
 		else if (sprite_index == spr_Player_Walk_Up) sprite_index = spr_Player_Idle_Up;
 		else if (sprite_index == spr_Player_Walk_Down) sprite_index = spr_Player_Idle_Down;
 }
+
+function SetIdle(sprRight, sprUp, sprLeft, sprDown, idleRight, idleUp, idleLeft, idleDown)
+{
+	if (sprite_index == sprRight) sprite_index = idleRight;
+		else if (sprite_index == sprLeft) sprite_index = idleLeft;
+		else if (sprite_index == sprUp) sprite_index = idleUp;
+		else if (sprite_index == sprDown) sprite_index = idleDown;
+}
+
+function UpdateDirection(sprRight, sprUp, sprLeft, sprDown)
+{
+	if(direction >= 0 && direction < 90)
+	{
+		sprite_index = sprRight;
+	}
+	else if(direction >= 90 && direction < 180)
+	{
+		sprite_index = sprUp;
+	}
+	else if(direction >= 180 && direction < 270)
+	{
+		sprite_index = sprLeft;
+	}
+	else if(direction >= 270)
+	{
+		sprite_index = sprDown;
+	}
+}
+
+function PausePath()
+{
+	pathPaused = true;
+	prevSpeed = path_speed;
+	path_speed = 0;
+}
+
+function ResumePath()
+{
+	pathPaused = false;
+	path_speed = prevSpeed;
+}
+
 
