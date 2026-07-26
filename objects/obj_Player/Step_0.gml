@@ -5,13 +5,18 @@ if(!global.IsShowingDialog)
 
 var npc = instance_nearest(x, y, obj_dialogParent);
 
-if(!global.IsShowingDialog && npc != noone && npc.isNPC && distance_to_object(npc) < 10)
+if(!global.IsShowingDialog && npc != noone && npc.isNPC && !npc.isComplete 
+	&& array_length(npc._dialogs) > 0 && distance_to_object(npc) < 10)
 {
 	ShowTooltip(npc.x, npc.y);
-	
 	npc.isTooltipActive = true;
 }
 else if(global.IsShowingTooltip)
 {
 	HideTooltip();
+}
+
+if(keyboard_check_pressed(vk_backspace))
+{
+	room_goto_next();
 }

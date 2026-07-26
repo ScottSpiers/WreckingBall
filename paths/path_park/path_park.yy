@@ -1,0 +1,21 @@
+{
+  "$GMPath":"",
+  "%Name":"path_park",
+  "closed":true,
+  "kind":0,
+  "name":"path_park",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":75.0,"x":0.0,"y":0.0,},
+    {"speed":75.0,"x":55.0,"y":0.0,},
+    {"speed":75.0,"x":55.0,"y":-75.0,},
+    {"speed":75.0,"x":-55.0,"y":-75.0,},
+    {"speed":75.0,"x":-55.0,"y":0.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

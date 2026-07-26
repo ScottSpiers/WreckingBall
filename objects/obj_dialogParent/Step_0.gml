@@ -1,23 +1,27 @@
 
-if(!isShowingDialog && isNPC && curDialogue < array_length(_dialogs))
+if(isComplete)
 {
-	if(isTooltipActive && keyboard_check_pressed(ord("E")))
-	{
-		HideTooltip();
-		isTooltipActive = false;
-		ShowDialog(_dialogs[curDialogue++]);
-		isShowingDialog = true;
-	}
+	return;
+}
+
+if(!isShowingDialog && isTooltipActive && isNPC && curDialogue < array_length(_dialogs) && keyboard_check_pressed(ord("E")))
+{
+	HideTooltip();
+	isTooltipActive = false;
+	ShowDialog(_dialogs[curDialogue]);
+	isShowingDialog = true;
 }
 else if (isShowingDialog)
 {
 	if(keyboard_check_pressed(vk_anykey))
 	{
-		if(curDialogue < array_length(_dialogs))
+		if(curDialogue + 1 < array_length(_dialogs))
 		{
-			ShowDialog(_dialogs[curDialogue++]);
+			ShowDialog(_dialogs[++curDialogue]);
 			return;
 		}
+		
+		++curDialogue;
 		
 		HideDialog();
 		isShowingDialog = false;
@@ -27,11 +31,15 @@ else if (isShowingDialog)
 			return;
 		}
 		
+		isComplete = true;
+		
 		//TODO: base on dialog outcome
 		global.signatures += signatures;
 		UpdateSignatureUI();
 		
 		if(isInteraction)
+		{
 			CompleteInteraction();
+		}
 	}
 }

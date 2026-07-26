@@ -117,3 +117,17 @@ function FacePlayer(sprRight, sprUp, sprLeft, sprDown)
 	}
 		
 }
+
+function PausePath()
+{
+	pathPaused = true;
+	prevPos = path_position;
+	prevSpeed = path_speed;
+	path_speed = 0;
+}
+
+function ResumePath()
+{
+	pathPaused = false;
+	path_speed = prevSpeed;
+}

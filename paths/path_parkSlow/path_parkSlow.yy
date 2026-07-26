@@ -1,0 +1,21 @@
+{
+  "$GMPath":"",
+  "%Name":"path_parkSlow",
+  "closed":false,
+  "kind":0,
+  "name":"path_parkSlow",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":50.0,"x":0.0,"y":0.0,},
+    {"speed":50.0,"x":0.0,"y":60.0,},
+    {"speed":50.0,"x":75.0,"y":60.0,},
+    {"speed":50.0,"x":0.0,"y":60.0,},
+    {"speed":50.0,"x":0.0,"y":0.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
