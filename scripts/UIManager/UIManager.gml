@@ -121,8 +121,8 @@ function ShowTooltip(_x, _y)
 	var posY = ((_y - camera_get_view_y(view_camera[0])) / camera_get_view_height(view_camera[0])) * display_get_gui_height();
 	
 	flexpanel_node_style_set_position_type(panel, flexpanel_position_type.absolute);
-	flexpanel_node_style_set_position(panel, flexpanel_edge.left, posX - 4, flexpanel_unit.point);
-	flexpanel_node_style_set_position(panel, flexpanel_edge.top, posY - 64, flexpanel_unit.point);
+	flexpanel_node_style_set_position(panel, flexpanel_edge.left, posX - 16, flexpanel_unit.point);
+	flexpanel_node_style_set_position(panel, flexpanel_edge.top, posY - 80, flexpanel_unit.point);
 	flexpanel_node_style_set_display(panel, flexpanel_display.flex);
 	
 }
