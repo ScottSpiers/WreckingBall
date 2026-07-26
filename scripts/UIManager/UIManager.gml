@@ -12,11 +12,29 @@ function InitUI()
 	global.calendarText = calendarText;
 	global.emailPanel = emailPanel;
 	global.playerPromptPanel = playerPromptPanel;
+	global.endEmailPanel = emailEndPanel;
 	
 	HideEmail();
+	HideEndEmail();
 	HidePlayerPrompt();
 	HideDialog();
 	HideTooltip();
+}
+
+function HideEndEmail()
+{
+	flexpanel_node_style_set_display(GetEmailEndPanel(), flexpanel_display.none);
+}
+
+function ShowEndEmail()
+{
+	flexpanel_node_style_set_display(GetEmailEndPanel(), flexpanel_display.flex);
+}
+
+function GetEmailEndPanel()
+{
+	var ui = layer_get_flexpanel_node(global.uiLayer);
+	return flexpanel_node_get_child(ui, global.endEmailPanel);
 }
 
 function HideEmail()

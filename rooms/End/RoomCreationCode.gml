@@ -1,6 +1,6 @@
 global.hasFinished = true;
 HideHUD();
-ShowEmail();
+ShowEndEmail();
 
 //show_debug_message($"Total Signatures: {global.signatures}");
 
