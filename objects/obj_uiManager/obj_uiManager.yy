@@ -37,6 +37,8 @@
     {"$GMObjectProperty":"v2","%Name":"emailPanel","filters":[],"listItems":[],"multiselect":false,"name":"emailPanel","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"pnl_emailStart","varType":2,},
     {"$GMObjectProperty":"v2","%Name":"playerPromptPanel","filters":[],"listItems":[],"multiselect":false,"name":"playerPromptPanel","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"pnl_playerPrompt","varType":2,},
     {"$GMObjectProperty":"v2","%Name":"emailEndPanel","filters":[],"listItems":[],"multiselect":false,"name":"emailEndPanel","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"pnl_emailEnd","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"nameText","filters":[],"listItems":[],"multiselect":false,"name":"nameText","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"txt_name","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"namePanel","filters":[],"listItems":[],"multiselect":false,"name":"namePanel","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"pnl_dialogName","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
