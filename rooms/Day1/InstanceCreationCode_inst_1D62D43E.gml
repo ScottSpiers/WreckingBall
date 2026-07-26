@@ -1,1 +1,1 @@
-array_push(_dialogs, "The exhibition is running for a few weeks. I'll come back when my mission is complete!");
+array_push(_dialogs, "Sounds like an interesting exhibition, but I'll have to come back once I've completed my mission!");

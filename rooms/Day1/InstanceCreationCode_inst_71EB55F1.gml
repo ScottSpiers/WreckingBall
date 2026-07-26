@@ -1,1 +1,1 @@
-array_push(_dialogs, "Stacked");
+array_push(_dialogs, "Stacked \n ~Bookshop~");

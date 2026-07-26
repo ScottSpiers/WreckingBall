@@ -1,1 +1,1 @@
-array_push(_dialogs, "People are most likely to be in the town at this time. I should stay on the high street");
+array_push(_dialogs, "People are more likely to be on the high street. I should stay here for now.");

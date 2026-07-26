@@ -1,1 +1,1 @@
-array_push(_dialogs, "It's too soon to collect my reward! A few more signatures and I can stop for a cold brew.");
+array_push(_dialogs, "A cold brew can be my reward for collecting signatures. Back to it!");

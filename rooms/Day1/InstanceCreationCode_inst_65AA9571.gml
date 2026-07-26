@@ -1,1 +1,0 @@
-array_push(_dialogs, "Boooooooooooooooooooo!");

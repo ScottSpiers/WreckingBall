@@ -1,1 +1,1 @@
-array_push(_dialogs, "Baked and Battered");
+array_push(_dialogs, "Baked and Battered \n ~Cafe~");
