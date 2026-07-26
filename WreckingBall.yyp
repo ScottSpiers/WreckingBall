@@ -49,6 +49,7 @@
   "name":"WreckingBall",
   "resources":[
     {"id":{"name":"fnt_default","path":"fonts/fnt_default/fnt_default.yy",},},
+    {"id":{"name":"fnt_Serif","path":"fonts/fnt_Serif/fnt_Serif.yy",},},
     {"id":{"name":"obj_builder1","path":"objects/obj_builder1/obj_builder1.yy",},},
     {"id":{"name":"obj_builder2","path":"objects/obj_builder2/obj_builder2.yy",},},
     {"id":{"name":"obj_corporateFemale1","path":"objects/obj_corporateFemale1/obj_corporateFemale1.yy",},},
