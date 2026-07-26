@@ -5,7 +5,7 @@ function InitGameManager()
 	global.daysLeft = 2;
 	global.interactions = 0;
 	global.signatures = 0;
-	
+	global.isEnvelopeOpen = false;
 }
 
 function CompleteInteraction()

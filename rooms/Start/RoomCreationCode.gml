@@ -1,0 +1,2 @@
+global.hasFinished = false;
+HideHUD();

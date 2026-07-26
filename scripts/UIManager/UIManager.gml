@@ -10,11 +10,45 @@ function InitUI()
 	global.hudPanel = hudPanel;
 	global.signatureText = signatureText;
 	global.calendarText = calendarText;
+	global.emailPanel = emailPanel;
+	global.playerPromptPanel = playerPromptPanel;
 	
+	HideEmail();
+	HidePlayerPrompt();
 	HideDialog();
 	HideTooltip();
-	UpdateSignatureUI();
-	UpdateCalendar();
+}
+
+function HideEmail()
+{
+	flexpanel_node_style_set_display(GetEmailPanel(), flexpanel_display.none);
+}
+
+function ShowEmail()
+{
+	flexpanel_node_style_set_display(GetEmailPanel(), flexpanel_display.flex);
+}
+
+function GetEmailPanel()
+{
+	var ui = layer_get_flexpanel_node(global.uiLayer);
+	return flexpanel_node_get_child(ui, global.emailPanel);
+}
+
+function HidePlayerPrompt()
+{
+	flexpanel_node_style_set_display(GetPlayerPromptPanel(), flexpanel_display.none);
+}
+
+function ShowPlayerPrompt()
+{
+	flexpanel_node_style_set_display(GetPlayerPromptPanel(), flexpanel_display.flex);
+}
+
+function GetPlayerPromptPanel()
+{
+	var ui = layer_get_flexpanel_node(global.uiLayer);
+	return flexpanel_node_get_child(ui, global.playerPromptPanel);
 }
 
 function UpdateCalendar()
@@ -25,13 +59,11 @@ function UpdateCalendar()
 
 function ShowHUD()
 {
-	var ui = layer_get_flexpanel_node(global.uiLayer);
 	flexpanel_node_style_set_display(GetHUDPanel(), flexpanel_display.flex);
 }
 
 function HideHUD()
 {
-	var ui = layer_get_flexpanel_node(global.uiLayer);
 	flexpanel_node_style_set_display(GetHUDPanel(), flexpanel_display.none);
 }
 

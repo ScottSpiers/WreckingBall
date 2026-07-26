@@ -1,0 +1,3 @@
+UpdateCalendar();
+UpdateSignatureUI();
+ShowHUD();
