@@ -95,6 +95,7 @@
     {"id":{"name":"spr_BuildersNPC_2_Walk_Left","path":"sprites/spr_BuildersNPC_2_Walk_Left/spr_BuildersNPC_2_Walk_Left.yy",},},
     {"id":{"name":"spr_BuildersNPC_2_Walk_Right","path":"sprites/spr_BuildersNPC_2_Walk_Right/spr_BuildersNPC_2_Walk_Right.yy",},},
     {"id":{"name":"spr_BuildersNPC_2_Walk_Up","path":"sprites/spr_BuildersNPC_2_Walk_Up/spr_BuildersNPC_2_Walk_Up.yy",},},
+    {"id":{"name":"spr_CalendarCountdown_Transition_0","path":"sprites/spr_CalendarCountdown_Transition_0/spr_CalendarCountdown_Transition_0.yy",},},
     {"id":{"name":"spr_CalendarCountdown_Transition_1","path":"sprites/spr_CalendarCountdown_Transition_1/spr_CalendarCountdown_Transition_1.yy",},},
     {"id":{"name":"spr_CalendarCountdown_Transition_2","path":"sprites/spr_CalendarCountdown_Transition_2/spr_CalendarCountdown_Transition_2.yy",},},
     {"id":{"name":"spr_CalendarCountdown","path":"sprites/spr_CalendarCountdown/spr_CalendarCountdown.yy",},},
