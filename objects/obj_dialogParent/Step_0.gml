@@ -8,7 +8,7 @@ if(!isShowingDialog && isTooltipActive && isNPC && curDialogue < array_length(_d
 {
 	HideTooltip();
 	isTooltipActive = false;
-	ShowDialog(_dialogs[curDialogue]);
+	ShowDialog(_dialogs[curDialogue], name);
 	isShowingDialog = true;
 }
 else if (isShowingDialog)
@@ -17,7 +17,7 @@ else if (isShowingDialog)
 	{
 		if(curDialogue + 1 < array_length(_dialogs))
 		{
-			ShowDialog(_dialogs[++curDialogue]);
+			ShowDialog(_dialogs[++curDialogue], name);
 			return;
 		}
 		

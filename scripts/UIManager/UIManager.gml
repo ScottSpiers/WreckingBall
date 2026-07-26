@@ -13,6 +13,8 @@ function InitUI()
 	global.emailPanel = emailPanel;
 	global.playerPromptPanel = playerPromptPanel;
 	global.endEmailPanel = emailEndPanel;
+	global.nameText = nameText;
+	global.namePanel = namePanel;
 	
 	HideEmail();
 	HideEndEmail();
@@ -97,16 +99,30 @@ function UpdateSignatureUI()
 	layer_text_text(textId, $"x{global.signatures}");
 }
 
-function ShowDialog(text)
+function ShowDialog(text, name = noone)
 {	
 	global.IsShowingDialog = true;
-	var textId = layer_text_get_id(global.uiLayer, global.dialogText);
-	layer_text_text(textId, text);
+	
+	if(name == noone)
+	{
+		HideDialogName();
+	}
+	else
+	{
+		var nameTextId = layer_text_get_id(global.uiLayer, global.nameText);
+		layer_text_text(nameTextId, name);
+		ShowDialogName();
+	}
+	
+	var dialogTextId = layer_text_get_id(global.uiLayer, global.dialogText);	
+	layer_text_text(dialogTextId, text);
+	
 	flexpanel_node_style_set_display(GetDialogPanel(), flexpanel_display.flex);
 }
 
 function HideDialog()
 {
+	HideDialogName();
 	flexpanel_node_style_set_display(GetDialogPanel(), flexpanel_display.none);
 	global.IsShowingDialog = false;
 }
@@ -115,6 +131,22 @@ function GetDialogPanel()
 {
 	var ui = layer_get_flexpanel_node(global.uiLayer);
 	return flexpanel_node_get_child(ui, global.dialogPanel);	
+}
+
+function ShowDialogName()
+{
+	flexpanel_node_style_set_display(GetDialogNamePanel(), flexpanel_display.flex);
+}
+
+function HideDialogName()
+{
+	flexpanel_node_style_set_display(GetDialogNamePanel(), flexpanel_display.none);
+}
+
+function GetDialogNamePanel()
+{
+	var ui = layer_get_flexpanel_node(global.uiLayer);
+	return flexpanel_node_get_child(ui, global.namePanel);	
 }
 
 function GetTooltipPanel()
