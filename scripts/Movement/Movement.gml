@@ -89,17 +89,31 @@ function UpdateDirection(sprRight, sprUp, sprLeft, sprDown)
 	}
 }
 
-function PausePath()
+function FacePlayer(sprRight, sprUp, sprLeft, sprDown)
 {
-	pathPaused = true;
-	prevSpeed = path_speed;
-	path_speed = 0;
+	var _x = obj_Player.x - x;
+	var _y = obj_Player.y - y;
+	
+	if(abs(_x) > abs(_y))
+	{
+		if (_x < 0)
+		{
+			sprite_index = sprLeft;
+		}
+		else if (_x > 0)
+		{
+			sprite_index = sprRight;
+		}
+		return; //unlikely to be 0
+	}
+	
+	if (_y < 0)
+	{
+		sprite_index = sprUp;
+	}
+	else
+	{
+		sprite_index = sprDown;
+	}
+		
 }
-
-function ResumePath()
-{
-	pathPaused = false;
-	path_speed = prevSpeed;
-}
-
-
