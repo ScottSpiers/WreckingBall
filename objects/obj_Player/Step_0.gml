@@ -3,6 +3,15 @@ if(!global.IsShowingDialog)
 	Move();
 }
 
+if(shouldStop != global.IsShowingDialog)
+{
+	shouldStop = global.IsShowingDialog;
+	if(shouldStop)
+	{
+		SetPlayerIdle();
+	}
+}
+
 var npc = instance_nearest(x, y, obj_dialogParent);
 
 if(!global.IsShowingDialog && npc != noone && npc.isNPC && !npc.isComplete 
