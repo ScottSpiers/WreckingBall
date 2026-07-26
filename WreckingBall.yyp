@@ -188,6 +188,7 @@
     {"id":{"name":"spr_Player_Walk_Left","path":"sprites/spr_Player_Walk_Left/spr_Player_Walk_Left.yy",},},
     {"id":{"name":"spr_Player_Walk_Right","path":"sprites/spr_Player_Walk_Right/spr_Player_Walk_Right.yy",},},
     {"id":{"name":"spr_Player_Walk_Up","path":"sprites/spr_Player_Walk_Up/spr_Player_Walk_Up.yy",},},
+    {"id":{"name":"spr_PlayerPrompts_Start","path":"sprites/spr_PlayerPrompts_Start/spr_PlayerPrompts_Start.yy",},},
     {"id":{"name":"spr_PlayerPrompts","path":"sprites/spr_PlayerPrompts/spr_PlayerPrompts.yy",},},
     {"id":{"name":"spr_RPGUrban_Tweaked","path":"sprites/spr_RPGUrban_Tweaked/spr_RPGUrban_Tweaked.yy",},},
     {"id":{"name":"spr_RPGUrbanPack_Bonus","path":"sprites/spr_RPGUrbanPack_Bonus/spr_RPGUrbanPack_Bonus.yy",},},
