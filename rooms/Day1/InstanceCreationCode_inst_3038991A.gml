@@ -1,1 +1,1 @@
-array_push(_dialogs, "Up Inn Arms");
+array_push(_dialogs, "Up Inn Arms \n ~Pub & Beer Garden~");

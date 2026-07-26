@@ -1,1 +1,1 @@
-array_push(_dialogs, "I should grab some shopping before I head home but first, signatures!");
+array_push(_dialogs, "I'll need to do the shopping before I head home, but first, signatures!");

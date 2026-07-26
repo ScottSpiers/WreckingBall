@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"Day1",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/Day1/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -14,10 +14,6 @@
     {"name":"inst_6B9329","path":"rooms/Day1/Day1.yy",},
     {"name":"inst_1D62D43E","path":"rooms/Day1/Day1.yy",},
     {"name":"inst_2F47BAC1","path":"rooms/Day1/Day1.yy",},
-    {"name":"inst_37763677","path":"rooms/Day1/Day1.yy",},
-    {"name":"inst_65AA9571","path":"rooms/Day1/Day1.yy",},
-    {"name":"inst_22714B95","path":"rooms/Day1/Day1.yy",},
-    {"name":"inst_568D061F","path":"rooms/Day1/Day1.yy",},
     {"name":"inst_E5F1302","path":"rooms/Day1/Day1.yy",},
     {"name":"inst_51A1B667","path":"rooms/Day1/Day1.yy",},
     {"name":"inst_2E8F1195","path":"rooms/Day1/Day1.yy",},
@@ -97,26 +93,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"propertyId":{"name":"signatures","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"propertyId":{"name":"isInteraction","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.25,"scaleY":0.485,"x":581.0,"y":433.0,},
-        {"$GMRInstance":"v4","%Name":"inst_37763677","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37763677","objectId":{"name":"obj_dialogCollider","path":"objects/obj_dialogCollider/obj_dialogCollider.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"propertyId":{"name":"isNPC","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"propertyId":{"name":"signatures","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"propertyId":{"name":"isInteraction","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":0.5,"x":400.0,"y":193.0,},
-        {"$GMRInstance":"v4","%Name":"inst_65AA9571","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_65AA9571","objectId":{"name":"obj_dialogCollider","path":"objects/obj_dialogCollider/obj_dialogCollider.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"propertyId":{"name":"isNPC","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"propertyId":{"name":"signatures","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"propertyId":{"name":"isInteraction","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":0.53125,"x":208.0,"y":192.0,},
-        {"$GMRInstance":"v4","%Name":"inst_22714B95","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_22714B95","objectId":{"name":"obj_dialogCollider","path":"objects/obj_dialogCollider/obj_dialogCollider.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"propertyId":{"name":"isNPC","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"propertyId":{"name":"signatures","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"propertyId":{"name":"isInteraction","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.525,"scaleY":1.0,"x":175.0,"y":144.0,},
-        {"$GMRInstance":"v4","%Name":"inst_568D061F","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_568D061F","objectId":{"name":"obj_dialogCollider","path":"objects/obj_dialogCollider/obj_dialogCollider.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"propertyId":{"name":"isNPC","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"propertyId":{"name":"signatures","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"propertyId":{"name":"isInteraction","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":1.0,"x":449.0,"y":144.0,},
         {"$GMRInstance":"v4","%Name":"inst_83C0FB2","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_83C0FB2","objectId":{"name":"obj_dialogCollider","path":"objects/obj_dialogCollider/obj_dialogCollider.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"propertyId":{"name":"isNPC","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dialogParent","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"propertyId":{"name":"signatures","path":"objects/obj_dialogParent/obj_dialogParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},

@@ -1,1 +1,1 @@
-array_push(_dialogs, "The smells are enticing but I've got work to do!");
+array_push(_dialogs, "Laura's sweet treats are enticing, but I've got work to do!");

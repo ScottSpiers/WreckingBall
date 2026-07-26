@@ -1,1 +1,1 @@
-array_push(_dialogs, "The books will still be there tomorrow but the Teear Manor might not!");
+array_push(_dialogs, "The books will still be there tomorrow, but Teear Manor might not!");

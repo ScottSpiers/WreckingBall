@@ -11,8 +11,8 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -78,6 +78,7 @@
     {"id":{"name":"GameManager","path":"scripts/GameManager/GameManager.yy",},},
     {"id":{"name":"Movement","path":"scripts/Movement/Movement.yy",},},
     {"id":{"name":"UIManager","path":"scripts/UIManager/UIManager.yy",},},
+    {"id":{"name":"BackingTrack_EricMatyas_soundimage","path":"sounds/BackingTrack_EricMatyas_soundimage/BackingTrack_EricMatyas_soundimage.yy",},},
     {"id":{"name":"spr_BuildersNPC_1_Idle_Down","path":"sprites/spr_BuildersNPC_1_Idle_Down/spr_BuildersNPC_1_Idle_Down.yy",},},
     {"id":{"name":"spr_BuildersNPC_1_Idle_Left","path":"sprites/spr_BuildersNPC_1_Idle_Left/spr_BuildersNPC_1_Idle_Left.yy",},},
     {"id":{"name":"spr_BuildersNPC_1_Idle_Right","path":"sprites/spr_BuildersNPC_1_Idle_Right/spr_BuildersNPC_1_Idle_Right.yy",},},

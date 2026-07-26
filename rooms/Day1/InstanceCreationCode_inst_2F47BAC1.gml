@@ -1,1 +1,1 @@
-array_push(_dialogs, "Boooooooooooooooooooo!");
+array_push(_dialogs, "I practically grew up at Teear Manor. Or at least it felt that way, given how often we visited. As an adult, it was impossible to imagine settling anywhere else.");
